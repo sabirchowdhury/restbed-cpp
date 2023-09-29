@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Documents\GitHub\restbed-cpp\build\CMakeFiles\f0a326754e42ad82238ba11a7927c1c5\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B2308A17-82D5-3347-BD97-70AC99C1DC79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
