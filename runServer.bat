@@ -1,1 +1,1 @@
-start build/Debug/restbedcpp.exe
+call build\Release\restbedcpp.exe

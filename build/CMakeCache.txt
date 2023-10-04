@@ -179,8 +179,8 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=
 // during RELWITHDEBINFO builds.
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
-//No help, variable specified on the command line.
-CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=C:/Users/User/vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake
+//The CMake toolchain file
+CMAKE_TOOLCHAIN_FILE:FILEPATH=C:/vcpkg/scripts/buildsystems/vcpkg.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -188,31 +188,13 @@ CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=C:/Users/User/vcpkg/vcpkg/scripts/buildsystem
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Path to a library.
-LIB_EAY_DEBUG:FILEPATH=C:/Users/User/vcpkg/vcpkg/installed/x64-windows/debug/lib/libcrypto.lib
-
-//Path to a library.
-LIB_EAY_RELEASE:FILEPATH=C:/Users/User/vcpkg/vcpkg/installed/x64-windows/lib/libcrypto.lib
-
-//Path to a file.
-OPENSSL_APPLINK_SOURCE:FILEPATH=C:/Users/User/vcpkg/vcpkg/installed/x64-windows/include/openssl/applink.c
-
-//Path to a file.
-OPENSSL_INCLUDE_DIR:PATH=C:/Users/User/vcpkg/vcpkg/installed/x64-windows/include
-
-//Path to a library.
-SSL_EAY_DEBUG:FILEPATH=C:/Users/User/vcpkg/vcpkg/installed/x64-windows/debug/lib/libssl.lib
-
-//Path to a library.
-SSL_EAY_RELEASE:FILEPATH=C:/Users/User/vcpkg/vcpkg/installed/x64-windows/lib/libssl.lib
-
 //Automatically copy dependencies into the output directory for
 // executables.
 VCPKG_APPLOCAL_DEPS:BOOL=ON
 
 //The directory which contains the installed libraries for each
 // triplet
-VCPKG_INSTALLED_DIR:PATH=C:/Users/User/vcpkg/vcpkg/installed
+VCPKG_INSTALLED_DIR:PATH=C:/vcpkg/installed
 
 //The path to the vcpkg manifest directory.
 VCPKG_MANIFEST_DIR:PATH=
@@ -253,10 +235,10 @@ Z_VCPKG_PWSH_PATH:FILEPATH=Z_VCPKG_PWSH_PATH-NOTFOUND
 
 //The directory which contains the installed libraries for each
 // triplet
-_VCPKG_INSTALLED_DIR:PATH=C:/Users/User/vcpkg/vcpkg/installed
+_VCPKG_INSTALLED_DIR:PATH=C:/vcpkg/installed
 
 //The directory containing a CMake configuration file for nlohmann_json.
-nlohmann_json_DIR:PATH=C:/Users/User/vcpkg/vcpkg/installed/x64-windows/share/nlohmann_json
+nlohmann_json_DIR:PATH=C:/vcpkg/installed/x64-windows/share/nlohmann_json
 
 //Value Computed by CMake
 restbedcpp_BINARY_DIR:STATIC=C:/Users/User/Documents/GitHub/restbed-cpp/build
@@ -267,11 +249,8 @@ restbedcpp_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 restbedcpp_SOURCE_DIR:STATIC=C:/Users/User/Documents/GitHub/restbed-cpp
 
-//The directory containing a CMake configuration file for unofficial-mysql-connector-cpp.
-unofficial-mysql-connector-cpp_DIR:PATH=C:/Users/User/vcpkg/vcpkg/installed/x64-windows/share/unofficial-mysql-connector-cpp
-
 //The directory containing a CMake configuration file for unofficial-restbed.
-unofficial-restbed_DIR:PATH=C:/Users/User/vcpkg/vcpkg/installed/x64-windows/share/unofficial-restbed
+unofficial-restbed_DIR:PATH=C:/vcpkg/installed/x64-windows/share/unofficial-restbed
 
 
 ########################
@@ -406,12 +385,8 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_TOOLCHAIN_FILE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//Details about finding OpenSSL
-FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[optimized;C:/Users/User/vcpkg/vcpkg/installed/x64-windows/lib/libcrypto.lib;debug;C:/Users/User/vcpkg/vcpkg/installed/x64-windows/debug/lib/libcrypto.lib][C:/Users/User/vcpkg/vcpkg/installed/x64-windows/include][c ][v3.1.3()]
 //Details about finding nlohmann_json
-FIND_PACKAGE_MESSAGE_DETAILS_nlohmann_json:INTERNAL=[C:/Users/User/vcpkg/vcpkg/installed/x64-windows/share/nlohmann_json/nlohmann_jsonConfig.cmake][v3.11.2()]
-//ADVANCED property for variable: OPENSSL_INCLUDE_DIR
-OPENSSL_INCLUDE_DIR-ADVANCED:INTERNAL=1
+FIND_PACKAGE_MESSAGE_DETAILS_nlohmann_json:INTERNAL=[C:/vcpkg/installed/x64-windows/share/nlohmann_json/nlohmann_jsonConfig.cmake][v3.11.2()]
 //Install the dependencies listed in your manifest:
 //\n    If this is off, you will have to manually install your dependencies.
 //\n    See https://github.com/microsoft/vcpkg/tree/master/docs/specifications/manifests.md
@@ -425,5 +400,5 @@ Z_VCPKG_CHECK_MANIFEST_MODE:INTERNAL=OFF
 //The path to the PowerShell implementation to use.
 Z_VCPKG_POWERSHELL_PATH:INTERNAL=C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe
 //Vcpkg root directory
-Z_VCPKG_ROOT_DIR:INTERNAL=C:/Users/User/vcpkg/vcpkg
+Z_VCPKG_ROOT_DIR:INTERNAL=C:/vcpkg
 

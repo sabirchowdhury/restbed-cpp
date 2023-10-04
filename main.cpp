@@ -94,7 +94,7 @@ void post_method_handler(const shared_ptr<Session> session)
         
         cout << endl;
 
-        session->close( OK, "Hello, World!", { { "Content-Length", "13" } } ); });
+        session->close( OK, "Request recieved!", { { "Content-Length", "17" } } ); });
 }
 
 void get_method_handler(const shared_ptr<Session> session)
