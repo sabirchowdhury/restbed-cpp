@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    "*.dll": "cpp",
+    "iostream": "cpp",
+    "xstring": "cpp",
+    "ostream": "cpp",
+    "filesystem": "cpp",
+    "xlocinfo": "cpp",
+    "memory": "cpp"
+  }
+}

@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.7.2+d6990bcfa for .NET Framework
-      Build started 29/09/2023 22:56:53.
+      Build started 03/10/2023 19:12:59.
       
       Project "C:\\Users\\User\\Documents\\GitHub\\restbed-cpp\\build\\CMakeFiles\\3.27.6\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -61,7 +61,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.21
+      Time Elapsed 00:00:01.26
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -87,7 +87,7 @@ events:
       The output was:
       0
       MSBuild version 17.7.2+d6990bcfa for .NET Framework
-      Build started 29/09/2023 22:56:55.
+      Build started 03/10/2023 19:13:01.
       
       Project "C:\\Users\\User\\Documents\\GitHub\\restbed-cpp\\build\\CMakeFiles\\3.27.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -124,7 +124,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.90
+      Time Elapsed 00:00:01.13
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -143,8 +143,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/User/Documents/GitHub/restbed-cpp/build/CMakeFiles/CMakeScratch/TryCompile-egshv5"
-      binary: "C:/Users/User/Documents/GitHub/restbed-cpp/build/CMakeFiles/CMakeScratch/TryCompile-egshv5"
+      source: "C:/Users/User/Documents/GitHub/restbed-cpp/build/CMakeFiles/CMakeScratch/TryCompile-dxdxna"
+      binary: "C:/Users/User/Documents/GitHub/restbed-cpp/build/CMakeFiles/CMakeScratch/TryCompile-dxdxna"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       VCPKG_APPLOCAL_DEPS: "ON"
@@ -154,32 +154,32 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/User/Documents/GitHub/restbed-cpp/build/CMakeFiles/CMakeScratch/TryCompile-egshv5'
+        Change Dir: 'C:/Users/User/Documents/GitHub/restbed-cpp/build/CMakeFiles/CMakeScratch/TryCompile-dxdxna'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_de5a6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3a126.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 29/09/2023 22:56:56.
+        Build started 03/10/2023 19:13:02.
         
-        Project "C:\\Users\\User\\Documents\\GitHub\\restbed-cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-egshv5\\cmTC_de5a6.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\User\\Documents\\GitHub\\restbed-cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dxdxna\\cmTC_3a126.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_de5a6.dir\\Debug\\".
-          Creating directory "C:\\Users\\User\\Documents\\GitHub\\restbed-cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-egshv5\\Debug\\".
-          Creating directory "cmTC_de5a6.dir\\Debug\\cmTC_de5a6.tlog\\".
+          Creating directory "cmTC_3a126.dir\\Debug\\".
+          Creating directory "C:\\Users\\User\\Documents\\GitHub\\restbed-cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dxdxna\\Debug\\".
+          Creating directory "cmTC_3a126.dir\\Debug\\cmTC_3a126.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_de5a6.dir\\Debug\\cmTC_de5a6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_de5a6.dir\\Debug\\cmTC_de5a6.tlog\\unsuccessfulbuild".
+          Creating "cmTC_3a126.dir\\Debug\\cmTC_3a126.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_3a126.dir\\Debug\\cmTC_3a126.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de5a6.dir\\Debug\\\\" /Fd"cmTC_de5a6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3a126.dir\\Debug\\\\" /Fd"cmTC_3a126.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x64
           CMakeCCompilerABI.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de5a6.dir\\Debug\\\\" /Fd"cmTC_de5a6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3a126.dir\\Debug\\\\" /Fd"cmTC_3a126.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Documents\\GitHub\\restbed-cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-egshv5\\Debug\\cmTC_de5a6.exe" /INCREMENTAL /ILK:"cmTC_de5a6.dir\\Debug\\cmTC_de5a6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Documents/GitHub/restbed-cpp/build/CMakeFiles/CMakeScratch/TryCompile-egshv5/Debug/cmTC_de5a6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Documents/GitHub/restbed-cpp/build/CMakeFiles/CMakeScratch/TryCompile-egshv5/Debug/cmTC_de5a6.lib" /MACHINE:X64  /machine:x64 cmTC_de5a6.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_de5a6.vcxproj -> C:\\Users\\User\\Documents\\GitHub\\restbed-cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-egshv5\\Debug\\cmTC_de5a6.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Documents\\GitHub\\restbed-cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dxdxna\\Debug\\cmTC_3a126.exe" /INCREMENTAL /ILK:"cmTC_3a126.dir\\Debug\\cmTC_3a126.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Documents/GitHub/restbed-cpp/build/CMakeFiles/CMakeScratch/TryCompile-dxdxna/Debug/cmTC_3a126.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Documents/GitHub/restbed-cpp/build/CMakeFiles/CMakeScratch/TryCompile-dxdxna/Debug/cmTC_3a126.lib" /MACHINE:X64  /machine:x64 cmTC_3a126.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_3a126.vcxproj -> C:\\Users\\User\\Documents\\GitHub\\restbed-cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dxdxna\\Debug\\cmTC_3a126.exe
         PostBuildEvent:
           setlocal
-          C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/User/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/User/Documents/GitHub/restbed-cpp/build/CMakeFiles/CMakeScratch/TryCompile-egshv5/Debug/cmTC_de5a6.exe -installedDir C:/Users/User/vcpkg/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+          C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/User/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/User/Documents/GitHub/restbed-cpp/build/CMakeFiles/CMakeScratch/TryCompile-dxdxna/Debug/cmTC_3a126.exe -installedDir C:/Users/User/vcpkg/vcpkg/installed/x64-windows/debug/bin -OutVariable out
           if %errorlevel% neq 0 goto :cmEnd
           :cmEnd
           endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -189,15 +189,15 @@ events:
           if %errorlevel% neq 0 goto :VCEnd
           :VCEnd
         FinalizeBuildStatus:
-          Deleting file "cmTC_de5a6.dir\\Debug\\cmTC_de5a6.tlog\\unsuccessfulbuild".
-          Touching "cmTC_de5a6.dir\\Debug\\cmTC_de5a6.tlog\\cmTC_de5a6.lastbuildstate".
-        Done Building Project "C:\\Users\\User\\Documents\\GitHub\\restbed-cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-egshv5\\cmTC_de5a6.vcxproj" (default targets).
+          Deleting file "cmTC_3a126.dir\\Debug\\cmTC_3a126.tlog\\unsuccessfulbuild".
+          Touching "cmTC_3a126.dir\\Debug\\cmTC_3a126.tlog\\cmTC_3a126.lastbuildstate".
+        Done Building Project "C:\\Users\\User\\Documents\\GitHub\\restbed-cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dxdxna\\cmTC_3a126.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.80
+        Time Elapsed 00:00:01.30
         
       exitCode: 0
   -
@@ -209,8 +209,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/User/Documents/GitHub/restbed-cpp/build/CMakeFiles/CMakeScratch/TryCompile-2rtmlc"
-      binary: "C:/Users/User/Documents/GitHub/restbed-cpp/build/CMakeFiles/CMakeScratch/TryCompile-2rtmlc"
+      source: "C:/Users/User/Documents/GitHub/restbed-cpp/build/CMakeFiles/CMakeScratch/TryCompile-qtt3gp"
+      binary: "C:/Users/User/Documents/GitHub/restbed-cpp/build/CMakeFiles/CMakeScratch/TryCompile-qtt3gp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       VCPKG_APPLOCAL_DEPS: "ON"
@@ -220,32 +220,32 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/User/Documents/GitHub/restbed-cpp/build/CMakeFiles/CMakeScratch/TryCompile-2rtmlc'
+        Change Dir: 'C:/Users/User/Documents/GitHub/restbed-cpp/build/CMakeFiles/CMakeScratch/TryCompile-qtt3gp'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_489ff.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_74132.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 29/09/2023 22:56:57.
+        Build started 03/10/2023 19:13:04.
         
-        Project "C:\\Users\\User\\Documents\\GitHub\\restbed-cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2rtmlc\\cmTC_489ff.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\User\\Documents\\GitHub\\restbed-cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qtt3gp\\cmTC_74132.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_489ff.dir\\Debug\\".
-          Creating directory "C:\\Users\\User\\Documents\\GitHub\\restbed-cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2rtmlc\\Debug\\".
-          Creating directory "cmTC_489ff.dir\\Debug\\cmTC_489ff.tlog\\".
+          Creating directory "cmTC_74132.dir\\Debug\\".
+          Creating directory "C:\\Users\\User\\Documents\\GitHub\\restbed-cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qtt3gp\\Debug\\".
+          Creating directory "cmTC_74132.dir\\Debug\\cmTC_74132.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_489ff.dir\\Debug\\cmTC_489ff.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_489ff.dir\\Debug\\cmTC_489ff.tlog\\unsuccessfulbuild".
+          Creating "cmTC_74132.dir\\Debug\\cmTC_74132.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_74132.dir\\Debug\\cmTC_74132.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_489ff.dir\\Debug\\\\" /Fd"cmTC_489ff.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_74132.dir\\Debug\\\\" /Fd"cmTC_74132.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
           CMakeCXXCompilerABI.cpp
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_489ff.dir\\Debug\\\\" /Fd"cmTC_489ff.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_74132.dir\\Debug\\\\" /Fd"cmTC_74132.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Documents\\GitHub\\restbed-cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2rtmlc\\Debug\\cmTC_489ff.exe" /INCREMENTAL /ILK:"cmTC_489ff.dir\\Debug\\cmTC_489ff.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Documents/GitHub/restbed-cpp/build/CMakeFiles/CMakeScratch/TryCompile-2rtmlc/Debug/cmTC_489ff.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Documents/GitHub/restbed-cpp/build/CMakeFiles/CMakeScratch/TryCompile-2rtmlc/Debug/cmTC_489ff.lib" /MACHINE:X64  /machine:x64 cmTC_489ff.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_489ff.vcxproj -> C:\\Users\\User\\Documents\\GitHub\\restbed-cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2rtmlc\\Debug\\cmTC_489ff.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\User\\Documents\\GitHub\\restbed-cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qtt3gp\\Debug\\cmTC_74132.exe" /INCREMENTAL /ILK:"cmTC_74132.dir\\Debug\\cmTC_74132.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Documents/GitHub/restbed-cpp/build/CMakeFiles/CMakeScratch/TryCompile-qtt3gp/Debug/cmTC_74132.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Documents/GitHub/restbed-cpp/build/CMakeFiles/CMakeScratch/TryCompile-qtt3gp/Debug/cmTC_74132.lib" /MACHINE:X64  /machine:x64 cmTC_74132.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_74132.vcxproj -> C:\\Users\\User\\Documents\\GitHub\\restbed-cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qtt3gp\\Debug\\cmTC_74132.exe
         PostBuildEvent:
           setlocal
-          C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/User/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/User/Documents/GitHub/restbed-cpp/build/CMakeFiles/CMakeScratch/TryCompile-2rtmlc/Debug/cmTC_489ff.exe -installedDir C:/Users/User/vcpkg/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+          C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/User/vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/User/Documents/GitHub/restbed-cpp/build/CMakeFiles/CMakeScratch/TryCompile-qtt3gp/Debug/cmTC_74132.exe -installedDir C:/Users/User/vcpkg/vcpkg/installed/x64-windows/debug/bin -OutVariable out
           if %errorlevel% neq 0 goto :cmEnd
           :cmEnd
           endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -255,15 +255,15 @@ events:
           if %errorlevel% neq 0 goto :VCEnd
           :VCEnd
         FinalizeBuildStatus:
-          Deleting file "cmTC_489ff.dir\\Debug\\cmTC_489ff.tlog\\unsuccessfulbuild".
-          Touching "cmTC_489ff.dir\\Debug\\cmTC_489ff.tlog\\cmTC_489ff.lastbuildstate".
-        Done Building Project "C:\\Users\\User\\Documents\\GitHub\\restbed-cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2rtmlc\\cmTC_489ff.vcxproj" (default targets).
+          Deleting file "cmTC_74132.dir\\Debug\\cmTC_74132.tlog\\unsuccessfulbuild".
+          Touching "cmTC_74132.dir\\Debug\\cmTC_74132.tlog\\cmTC_74132.lastbuildstate".
+        Done Building Project "C:\\Users\\User\\Documents\\GitHub\\restbed-cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qtt3gp\\cmTC_74132.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.85
+        Time Elapsed 00:00:00.98
         
       exitCode: 0
 ...

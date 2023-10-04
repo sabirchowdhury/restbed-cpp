@@ -9,6 +9,9 @@
     <CustomBuild Include="C:\Users\User\Documents\GitHub\restbed-cpp\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Natvis Include="C:\Users\User\vcpkg\vcpkg\installed\x64-windows\share\nlohmann_json\nlohmann_json.natvis" />
+  </ItemGroup>
+  <ItemGroup>
     <Filter Include="Source Files">
       <UniqueIdentifier>{AD717160-A887-34B2-90D3-BBEFE7FD8218}</UniqueIdentifier>
     </Filter>

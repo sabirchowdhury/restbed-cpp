@@ -32,6 +32,14 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE FILE FILES
+    "C:/Users/User/Documents/GitHub/restbed-cpp/build/Release/libcrypto-1_1-x64.dll"
+    "C:/Users/User/Documents/GitHub/restbed-cpp/build/Release/libssl-1_1-x64.dll"
+    "C:/Users/User/Documents/GitHub/restbed-cpp/build/Release/mysqlcppconn-9-vs14.dll"
+    )
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()
